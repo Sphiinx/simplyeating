@@ -1,0 +1,140 @@
+/*General Settings*/
+h1, h2, h3, h4, h6 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .09px;
+}
+
+.media-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 12pt;
+
+}
+/*General Settings End*/
+
+/*Social Sidebar*/
+.social-sidebar {
+    height: 275px;
+    z-index: 1;
+    position: fixed;
+    top: 300px;
+    width: 60px;;
+}
+
+.social-list {
+    list-style-type: none;
+}
+
+.social-button {
+    padding: 5px 5px 5px 5px;
+    margin-left: -40px;
+    background-color: #0F1B30;
+    border-radius: 0px 10px 10px 0px;
+    
+  -webkit-opacity: .75;
+  -moz-opacity: .75;
+  opacity: .75;
+    
+-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}1`5px 15px;
+    
+    -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
+@media (max-width: 768px) {
+  .social-sidebar {
+    position: fixed;
+    top: 25%;
+    width: 60px;
+}
+  .social-button {
+    height: 35px;
+    }
+}
+/*Social Sidebar End*/
+
+/*Navbar Settings*/
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.1pt;
+    letter-spacing: .09px;
+    font-weight: bold;
+}
+
+.navbar-nav > li{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.navbar-inverse {
+    height: 140px;   
+}
+/*Navbar Settings End*/
+
+/*Navbar Animation*/
+.nav-btn a{
+  color: white;
+  text-decoration:none;
+  text-align: center;
+  display:block; /* important */
+  color: #000;
+}
+
+.nav-btn, .first-link{
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;     
+}
+
+
+.nav-btn{
+  height: 64px;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.nav-btn a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.first-link{
+  margin-top: 0em; 
+  height: 64px;  
+}
+
+.nav-btn:hover .first-link{
+  margin-top: -4em;
+  color: #fff;
+}
+/*Navbar Animation End*/
+
+/*Footer Settings*/
+.footer {
+    background-color: #0F1B30;
+    color: #9d9d9d;
+}
+/*Footer Settings End*/

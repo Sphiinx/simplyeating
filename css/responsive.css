@@ -1,0 +1,30 @@
+/*Navbar Responsive*/
+@media (max-width: 767px) {
+    .navbar-brand > img { 
+        margin-top: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .body {
+        margin-top: 0%; 
+    }
+    .navbar-inverse {
+        height: 64px;   
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        position: relative;
+        top: 0px;
+}
+    .navbar-brand > img { 
+        position: relative;
+        top: -32px;
+        z-index: 1;
+        width: 77%;
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form { 
+    background-color: #09101C;
+    }  
+}
+/*Navbar Responsive end*/
