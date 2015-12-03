@@ -23,12 +23,16 @@ p {
     font-size: 13.3pt;
 }
 
-.center {
+.text-center {
     text-align: center;
 }
 
 .jumbotron {
     margin-top: 10%;
+}
+
+.glyphicon-up-size {
+    font-size: 20pt;
 }
 /*General Settings End*/
 
@@ -49,39 +53,26 @@ p {
     padding: 5px 5px 5px 5px;
     margin-left: -40px;
     background-color: #0F1B30;
-    border-radius: 0px 10px 10px 0px;
-    
-  -webkit-opacity: .75;
-  -moz-opacity: .75;
-  opacity: .75;
-    
--webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}1`5px 15px;
-    
+    -webkit-opacity: .75;
+    -moz-opacity: .75;
+    opacity: .75;  
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.social-button:hover {
+    padding-left: 50px;
     -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
--webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-
-@media (max-width: 768px) {
-  .social-sidebar {
-    position: fixed;
-    top: 25%;
-    width: 60px;
-}
-  .social-button {
-    height: 35px;
-    }
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 /*Social Sidebar End*/
 
@@ -145,8 +136,30 @@ nav {
 
 /*Footer Settings*/
 .footer {
+    padding-top: 20px;
     background-color: #0F1B30;
     color: #9d9d9d;
+}
+.footer-social {
+    padding-top: 20px;
+    float: right;
+    list-style: none;
+}
+.footer-social a {
+    font-size: 13pt;
+    color: #fff;
+    text-decoration: none;
+    margin: 7px;
+}
+.footer-social li {
+    display: inline;
+}
+.footer-content {
+    color: #fff;
+    font-size: 12pt;
+}
+.footer-logo {
+    padding-left: 50px;
 }
 /*Footer Settings End*/
 
