@@ -1,26 +1,18 @@
 /*General Settings*/
+.wrapper {
+    height: 10000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-h5 {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: .09px;
-}
-
-.media-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11pt;
-}
-
 p {
     font-family: 'Open Sans', sans-serif; 
-}
-
-.jumbotron p {
-    font-size: 13.3pt;
 }
 
 .text-center {
@@ -36,6 +28,21 @@ p {
 }
 /*General Settings End*/
 
+/*Navbar Settings*/
+.navbar-brand {
+    float: left;
+}
+
+.header-navbar-collapse {
+    padding: 10px;
+    background: rgba(0,0,0,0.8)!important;
+}
+
+.navbar-nav:hover {
+    color: #ff5e00;
+}
+/*Navbar Settings End*/
+
 /*Social Sidebar*/
 .social-sidebar {
     height: 275px;
@@ -49,30 +56,47 @@ p {
     list-style-type: none;
 }
 
-.social-button {
-    padding: 5px 5px 5px 5px;
+.facebook {
     margin-left: -40px;
-    background-color: #0F1B30;
-    -webkit-opacity: .75;
-    -moz-opacity: .75;
-    opacity: .75;  
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
+    background-color: #24499a;
+    opacity: 0.8;
+}
+
+.google {
+    margin-left: -40px;
+    background-color: #e34426;
+    opacity: 0.8;  
+}
+
+.twitter {
+    margin-left: -40px;
+    background-color: #6ddfea;
+    opacity: 0.8;
+}
+
+.pinterest {
+    margin-left: -40px;
+    background-color: #bd2125;
+    opacity: 0.8;
+}
+
+.social-button {
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .social-button:hover {
     padding-left: 50px;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
     opacity: 1;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+    border-radius: 0px 10px 10px 0px;
 }
 /*Social Sidebar End*/
 
@@ -88,56 +112,12 @@ nav {
   margin-left: 8px;
   margin-right: 8px;
 }
-
-.navbar-inverse {
-    height: 140px;   
-}
 /*Navbar Settings End*/
-
-/*Navbar Animation*/
-.nav-btn a{
-  color: white;
-  text-decoration:none;
-  text-align: center;
-  display:block; /* important */
-  color: #000;
-}
-
-.nav-btn, .first-link{
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;     
-}
-
-
-.nav-btn{
-  height: 64px;
-  padding-right: 30px;
-  overflow: hidden;
-}
-
-.nav-btn a:hover{
-  text-decoration: none;
-  color: #fff;
-}
-
-.first-link{
-  margin-top: 0em; 
-  height: 64px;  
-}
-
-.nav-btn:hover .first-link{
-  margin-top: -4em;
-  color: #fff;
-}
-/*Navbar Animation End*/
 
 /*Footer Settings*/
 .footer {
     padding-top: 20px;
-    background-color: #0F1B30;
+    background-color: #2E3884;
     color: #9d9d9d;
 }
 .footer-social {
@@ -147,7 +127,6 @@ nav {
 }
 .footer-social a {
     font-size: 13pt;
-    color: #fff;
     text-decoration: none;
     margin: 7px;
 }
@@ -177,3 +156,34 @@ nav {
     -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 /*Horizontal Rule Custom Style End*/
+
+/*Logo Effects*/
+.logo {
+  opacity: 1;
+  -webkit-transition: all.2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.logo:hover {
+  opacity: 0.7;
+  -webkit-transition: all.2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+/*Logo Effects End*/
+
+/*White/Orange Text Effects*/
+.text-effect {
+    -webkit-transition: all.2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #fff;
+}
+
+.text-effect:hover {
+    -webkit-transition: all.2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #ff5e00;
+}
+/*White/Orange Text Effects End*/

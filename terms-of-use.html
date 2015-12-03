@@ -15,55 +15,68 @@
     <link href="css/main.css" rel="stylesheet">
 <!--Import for Website Responsive CSS-->
     <link href="css/responsive.css" rel="stylesheet">
+<!--Import for Website Homepage Smoothscroll CSS-->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 <!--Import for Website Favicon-->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <!--Google Font Import-->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
 <!--Google Font Import-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    
 </head>
 <!--End of the Head-->
+
 <!--Start of the Body-->
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     
 <!--Social Button Sidebar-->
     <aside class="social-sidebar">
         <ul class="social-list">
-            <li><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
-            <li><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google-Plus.png" target="_blank"/></a></li>
-            <li><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
-            <li><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
+            <li class="google"><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google.png" target="_blank"/></a></li>
+            <li class="twitter"><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
+            <li class="pinterest"><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
         </ul>
 </aside>
 <!--Social Button Sidebar End-->
-    
+
 <!--Start of the NavBar-->
-    <nav class=" navbar navbar-inverse navbar-new navbar-fixed-top">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=183%C3%9775&w=183&h=75"></a>
-         </div>
-         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-left">
-               <li class="nav-btn active"><a class="first-link active" href="index.html">EAT HEALTHY</a>
-               <a href="index.html">EAT HEALTHY</a></li>
-               <li class="nav-btn"><a class="first-link" href="packages.html">FITNESS</a>
-               <a href="packages.html">FITNESS</a></li>
-               <li class="nav-btn"><a class="first-link" href="about.html">LIFESTYLE</a>
-               <a href="about.html">LIFESTYLE</a></li>
-               <li class="nav-btn"><a class="first-link" href="contact.php">RESOURCES</a>
-               <a href="contact.php">RESOURCES</a>
-</li>
-            </ul>
-         </div>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid header-navbar-container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="page-scroll" href="#page-top">
+                    <img class="logo" src="images/logos/mainlogo.png" alt="TRiBot - RUNESCAPE® Bot" height="65" width="65">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">EAT HEALTHY</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#fitness">FITNESS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lifestyle">LIFESTYLE</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resources">RESOURCES</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 <!--End of the NavBar-->
 
@@ -159,7 +172,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 footer-logo">
-                    <img src="https://placehold.it/60x60" alt="SimplyEating" height="60" width="60">
+                    <a class="page-scroll" href="#page-top">
+                    <img class="logo" src="images/logos/mainlogo.png" alt="TRiBot - RUNESCAPE® Bot" height="65" width="65">
+                </a>
                 </div>
                 <div class="col-sm-6">
                     <ul class="footer-social">
@@ -176,7 +191,7 @@
                 </div>  
                 <div class="col-sm-3">
                     <div class="pull-right">
-                        <a href="#page-top"><span class="glyphicon-up-size glyphicon glyphicon-chevron-up" aria-hidden="true"></span></i></a>
+                        <a class="page-scroll text-effect" href="#page-top"><span class="glyphicon-up-size glyphicon glyphicon-chevron-up" aria-hidden="true"></span></i></a>
                     </div>
                 </div>
             </div>
@@ -184,14 +199,14 @@
     </footer>
 <!--End of the Footer-->
     
-        
-        
-<!--Import for Bootstrap Javascript-->
-    <script src="js/npm.js"></script>
-<!--Import for Bootstrap Jquery-->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<!--Import for Bootstrap Javascript-->
-    <script src="js/bootstrap.js"></script>
+<!-- Import for JQuery -->
+    <script src="js/jquery.js"></script>
+<!-- Import for Bootstrap Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Import for Homepage Smoothscroll Javascript -->
+    <script src="js/jquery.easing.min.js"></script>
+<!-- Import for Homepage Smoothscroll Javascript -->
+    <script src="js/scrolling-nav.js"></script>
         
 </body>
 <!--End of the Body-->

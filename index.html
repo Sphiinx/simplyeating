@@ -4,75 +4,148 @@
 <head>
     
 <!--Start of the website title-->
-    <title>SimplyEating - Healthy Eating, Recipes, & More!</title>
+    <title>SimplyEating - Healthy Eating, Fitness, Lifestyle & More!</title>
 <!-- Website SEO Description-->
     <meta charset="utf-8" name="description" content="SimplyEating is a healthy eating website built for the use of everyone. We offer a large variety of information, guides and more on the subject of fitness and healthy eating. Anyone from young to old can browse our easily navigable website to find what they need.">
 <!--Responsive design website scale-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Import for Bootstrap CSS-->
     <link href="css/bootstrap.css" rel="stylesheet">
 <!--Import for Main CSS-->
     <link href="css/main.css" rel="stylesheet">
 <!--Import for Website Responsive CSS-->
     <link href="css/responsive.css" rel="stylesheet">
+<!--Import for Website Homepage Smoothscroll CSS-->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 <!--Import for Website Favicon-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <!--Google Font Import-->
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
 <!--Google Font Import-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    
 </head>
 <!--End of the Head-->
-<!--Start of the Body-->
-<body>
 
+<!--Start of the Body-->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
 <!--Social Button Sidebar-->
     <aside class="social-sidebar">
         <ul class="social-list">
-            <li><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
-            <li><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google-Plus.png" target="_blank"/></a></li>
-            <li><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
-            <li><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank"><img class="social-button" src="images/social-buttons/Facebook.png"/></a></li>
+            <li class="google"><a href="https://plus.google.com/u/1/" target="_blank"><img class="social-button" src="images/social-buttons/Google.png" target="_blank"/></a></li>
+            <li class="twitter"><a href="https://twitter.com/MegaTravel2015" target="_blank"><img class="social-button" src="images/social-buttons/Twitter.png"/></a></li>
+            <li class="pinterest"><a href="https://www.pinterest.com/megatravel15/" target="_blank"><img class="social-button" src="images/social-buttons/Pinterest.png" target="_blank"/></a></li>
         </ul>
 </aside>
 <!--Social Button Sidebar End-->
-    
+
 <!--Start of the NavBar-->
-    <nav class=" navbar navbar-inverse navbar-new navbar-fixed-top">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=183%C3%9775&w=183&h=75"></a>
-         </div>
-         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-left">
-               <li class="nav-btn active"><a class="first-link active" href="index.html">EAT HEALTHY</a>
-               <a href="index.html">EAT HEALTHY</a></li>
-               <li class="nav-btn"><a class="first-link" href="packages.html">FITNESS</a>
-               <a href="packages.html">FITNESS</a></li>
-               <li class="nav-btn"><a class="first-link" href="about.html">LIFESTYLE</a>
-               <a href="about.html">LIFESTYLE</a></li>
-               <li class="nav-btn"><a class="first-link" href="contact.php">RESOURCES</a>
-               <a href="contact.php">RESOURCES</a>
-</li>
-            </ul>
-         </div>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid header-navbar-container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="page-scroll" href="#page-top">
+                    <img class="logo" src="images/logos/mainlogo.png" alt="TRiBot - RUNESCAPE® Bot" height="65" width="65">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">EAT HEALTHY</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#fitness">FITNESS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lifestyle">LIFESTYLE</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resources">RESOURCES</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 <!--End of the NavBar-->
-    
-<!--Start of the footer-->
-    <div class="footer">
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="https://placehold.it/60x60" alt="SimplyEating" height="60" width="60">
+                <div class="col-lg-12">
+                    <h1>Intro Section</h1>
+                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section id="fitness" class="fitness-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Intro Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="lifestyle" class="lifestyle-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Resources Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- aBOUT Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+<!--Start of the footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 footer-logo">
+                    <a class="page-scroll" href="#page-top">
+                    <img class="logo" src="images/logos/mainlogo.png" alt="TRiBot - RUNESCAPE® Bot" height="65" width="65">
+                </a>
                 </div>
                 <div class="col-sm-6">
                     <ul class="footer-social">
@@ -89,19 +162,22 @@
                 </div>  
                 <div class="col-sm-3">
                     <div class="pull-right">
-                        <a href="#page-top"><span class="glyphicon-up-size glyphicon glyphicon-chevron-up" aria-hidden="true"></span></i></a>
+                        <a class="page-scroll text-effect" href="#page-top"><span class="glyphicon-up-size glyphicon glyphicon-chevron-up" aria-hidden="true"></span></i></a>
                     </div>
                 </div>
-          </div>
-    </div>
+            </div>
+        </div>
+    </footer>
 <!--End of the Footer-->
-        
-<!--Import for Bootstrap Javascript-->
-    <script src="js/npm.js"></script>
-<!--Import for Bootstrap Jquery-->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<!--Import for Bootstrap Javascript-->
-    <script src="js/bootstrap.js"></script>
+    
+<!-- Import for JQuery -->
+    <script src="js/jquery.js"></script>
+<!-- Import for Bootstrap Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Import for Homepage Smoothscroll Javascript -->
+    <script src="js/jquery.easing.min.js"></script>
+<!-- Import for Homepage Smoothscroll Javascript -->
+    <script src="js/scrolling-nav.js"></script>
         
 </body>
 <!--End of the Body-->
