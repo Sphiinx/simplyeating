@@ -17,8 +17,8 @@
     <link href="css/responsive.css" rel="stylesheet">
 <!--Import for Website Homepage Smoothscroll CSS-->
     <link href="css/scrolling-nav.css" rel="stylesheet">
-<!--Import for Website Homepage CSS-->
-    <link href="css/index.css" rel="stylesheet">
+<!--Import for Contact Page CSS-->
+    <link href="css/contact.css" rel="stylesheet">
 <!--Import for Website Favicon-->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <!--Google Font Import-->
@@ -81,67 +81,76 @@
         </div>
     </nav>
 <!--End of the NavBar-->
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section" data-bg-color="#111" data-overlay-opacity="0.8">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="main-logo" src="images/logos/logo1.png">
-                    <a class="page-scroll text-effect" href="#fitness"><h3>SCROLL DOWN</h3>
-                    <span class="glyphicon-up-size glyphicon glyphicon-chevron-down" aria-hidden="true"></span></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Intro Section -->
-    <section id="fitness" class="fitness-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Fitness Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="lifestyle" class="lifestyle-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
     
-    <!-- Resources Section -->
-    <section id="resources" class="resources-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Resources Section</h1>
+<section class="container">
+    <div class="jumbotron">
+        <div class="contact-container">
+            <h2 class="">Contact Page</h2>
+            <hr class="hr-style"/>
+            <form class="contact-form" action="php/mail.php" method="POST">
+                <div class="smallContainer">
+                    <div class="contactLeft">
+                        <h6>Name</h6>
+                    </div>
+                        <input class="contact-input" name="name" type="text" required></input>
+                </div>
+                <div class="smallContainer">
+                    <div class="contactLeft">
+                        <h6>E-mail</h6>
+                    </div>
+                        <input class="contact-input" name="email" type="text" required></input>
+                </div>
+                <div class="smallContainer">
+                    <div class="contactLeft">
+                        <h6>Subject</h6>
+                    </div>
+                        <input class="contact-input" name="subject" type="text" required></input>
+                </div>
+                <div class="smallContainer">
+                    <div class="contactLeft">
+                        <h6>Your Message</h6>
+                    </div>
+                        <textarea class="contact-textarea" name="message" rows="6" required></textarea>
+                </div>
+    <input class="submit btn btn-default" type="submit" value="Send"></input>
+            </form>
+    
+            <div class="contact-social">
+                <div class="contact-social-left">
+                    <a href="https://www.facebook.com/pages/Unofficial-Mega-Travel-Website/1716113811948646" target="_blank">
+                    <img src="images/social-buttons/Facebook.png" class="social-btn" name="facebook-social"/>
+                    </a>
+                    <a href="https://www.pinterest.com/megatravel15/" target="_blank">
+                    <img src="images/social-buttons/Pinterest.png" class="social-btn" name="pinterest-social"/>
+                    </a>
+                    <a href="https://plus.google.com/u/1/" target="_blank">
+                    <img src="images/social-buttons/Google.png" class="social-btn" name="googleplus-social"/>
+                    </a>
+                    <a href="https://twitter.com/MegaTravel2015" target="_blank">
+                    <img src="images/social-buttons/Twitter.png" class="social-btn" name="twitter-social"/>
+                    </a>
+                </div>
+                <div class="contact-social-right">
+                    <h5>SimplyEating</h5>
+                    <p>
+                    <h5>1 (208) 557-3242</h5>
+                    <h5><a href="mailto:simplyeatinghelp.co.nf">info@SimplyEating.co.nf</a></h5>
+                    </p>
+                    <h5>Coeur d'Alene, Idaho
+                        United States</h5>
                 </div>
             </div>
         </div>
-    </section>
+            <hr class="hr-style"/>
+    </div>
+</section>
+     
     
-    <!-- aBOUT Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
     
 
 
-<!--Start of the footer-->
+
+  <!--Start of the footer-->
     <footer class="footer">
         <div class="container">
             <div class="row">

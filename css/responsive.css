@@ -42,3 +42,21 @@
 }
 /*Social Bar Responsive End*/
 
+/*Contact Page Responsive*/
+@media (max-width: 1000px) {
+    .contact-container {
+        width: 400px;
+        height: 800px;
+    }
+    .smallContainer {
+        width: auto;
+    }
+    .contact-social {
+        float: none;
+        clear: both;
+    }
+    h2 {
+        text-align: center;  
+    }
+}
+/*Contact Page Responsive End*/

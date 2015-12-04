@@ -7,8 +7,8 @@
 
 h1, h2, h3, h4, h6 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 p {
@@ -59,28 +59,40 @@ p {
 .facebook {
     margin-left: -40px;
     background-color: #24499a;
-    opacity: 0.8;
+    opacity: 0.5;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .google {
     margin-left: -40px;
     background-color: #e34426;
-    opacity: 0.8;  
+    opacity: 0.5;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .twitter {
     margin-left: -40px;
     background-color: #6ddfea;
-    opacity: 0.8;
+    opacity: 0.5;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
 }
 
 .pinterest {
     margin-left: -40px;
     background-color: #bd2125;
-}
-
-.social-button {
-    opacity: 0.8;
+    opacity: 0.5;
     -webkit-transition: all .7s ease;
     -moz-transition: all .7s ease;
     -ms-transition: all .7s ease;
@@ -88,15 +100,17 @@ p {
     transition: all .7s ease;
 }
 
-.social-button:hover {
+.facebook:hover,
+.google:hover,
+.twitter:hover,
+.pinterest:hover{
     padding-left: 50px;
-    opacity: 1;
+    opacity: 1.0;
     -webkit-transition: all .7s ease;
     -moz-transition: all .7s ease;
     -ms-transition: all .7s ease;
     -o-transition: all .7s ease;
     transition: all .7s ease;
-    border-radius: 0px 10px 10px 0px;
 }
 /*Social Sidebar End*/
 

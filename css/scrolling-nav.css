@@ -31,8 +31,20 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background-image: url(https://placehold.it/2000x1600);
+    background-image: url(http://i.imgur.com/6ukJf1v.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-header {
+    height: 60%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    background-image: url(http://i.imgur.com/6ukJf1v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
