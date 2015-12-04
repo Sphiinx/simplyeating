@@ -1,17 +1,37 @@
 /*About Page CSS*/
-h1 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  
+}
+
+h1 {
     color: #ffffff;
     font-size: 50pt;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    color: #ffffff;
+    color: #000;
     font-size: 15pt;
     font-weight: bold;
+}
+
+h5 {
+    color: #fff;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 15pt;
+    color: #818181;
+    line-height: 180%;
+}
+
+.main-logo {
+    margin-top: 100px;
+    margin-bottom: 250px;
+    width: 50%;
+    opacity: 0.7;
 }
 
 .about-css {
