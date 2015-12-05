@@ -230,3 +230,15 @@ nav {
     box-shadow: inset 0 -100px 0 0 #DB611A;
 }
 /*Button Effects*/
+
+.come-in {
+  transform: translateY(25px);
+  animation: come-in 1.2s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}

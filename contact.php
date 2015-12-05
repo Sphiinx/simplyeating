@@ -19,7 +19,7 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
 <!--Import for Website Homepage CSS-->
     <link href="css/header.css" rel="stylesheet">
-<!--Import for Website Favicon-->
+<!--Import for Contact CSS-->
     <link href="css/contact.css" rel="stylesheet">
 <!--Import for Website Favicon-->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -84,7 +84,19 @@
     </nav>
 <!--End of the NavBar-->
     
-<section class="container">
+    <section id="intro" class="intro-header" data-bg-color="#111" data-overlay-opacity="0.8">
+        <div class="container">
+            <div class="row come-in">
+                <div class="col-lg-12">
+                    <h1>CONTACT US!</h1>
+                    <a class="page-scroll text-effect" href="#main"><h5>SCROLL DOWN</h5>
+                    <span class="glyphicon-up-size glyphicon glyphicon-chevron-down" aria-hidden="true"></span></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section class="container" id="main">
     <div class="jumbotron">
         <div class="contact-container">
             <h2 class="">Contact Page</h2>
@@ -133,17 +145,16 @@
                     </a>
                 </div>
                 <div class="contact-social-right">
-                    <h5>SimplyEating</h5>
+                    <h4>SimplyEating</h4>
                     <p>
-                    <h5>1 (208) 557-3242</h5>
-                    <h5><a href="mailto:simplyeatinghelp.co.nf">info@SimplyEating.co.nf</a></h5>
+                    <h4>1 (208) 557-3242</h4>
+                    <h4><a href="mailto:simplyeatinghelp.co.nf">info@SimplyEating.co.nf</a></h4>
                     </p>
-                    <h5>Coeur d'Alene, Idaho
-                        United States</h5>
+                    <h4>Coeur d'Alene, Idaho
+                        United States</h4>
                 </div>
             </div>
         </div>
-            <hr class="hr-style"/>
     </div>
 </section>
      

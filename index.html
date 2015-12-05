@@ -46,7 +46,7 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid header-navbar-container">
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -79,6 +79,14 @@
                 </ul>
             </div>
         </div>
+<!--[if lt IE 7]>
+    <div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>You are using an OUTDATED browser. Please upgrade your browser to improve your experience.</div>
+        <![endif]-->
+<!--[if IE 7]>
+    <div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>You are using an OUTDATED browser. Please upgrade your browser to improve your experience.</div>
+        <![endif]-->
+<!--[if IE 78
+    <div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>You are using an OUTDATED browser. Please upgrade your browser to improve your experience.</div><![endif]-->
     </nav>
 <!--End of the NavBar-->
 
@@ -87,7 +95,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="main-logo" src="images/logos/logo1.png">
+                    <img class="main-logo come-in" src="images/logos/logo1.png">
                     <a class="page-scroll text-effect" href="#eathealthy"><h5>SCROLL DOWN</h5>
                     <span class="glyphicon-up-size glyphicon glyphicon-chevron-down" aria-hidden="true"></span></i></a>
                 </div>
@@ -107,25 +115,31 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
+                        <a href="http://allrecipes.com/recipes/14485/healthy-recipes/main-dishes/chicken/?internalSource=hub%20nav&referringId=1320&referringContentType=recipe%20hub&linkName=hub%20nav%20daughter&clickId=hub%20nav%202" target="_blank">
 <div class="image1">
     <div class="overlay">
-        <span><h6>RECIPES!</h6> <h6>CLICK TO READ MORE!</h6></span>
+        <span><h6>CHICKEN RECIPES</h6> <h6>CLICK TO READ MORE!</h6></span>
     </div>
 </div>
+                            </a>
                     </div>
                     <div class="col-lg-4">
+                        <a href="http://allrecipes.com/recipes/14498/healthy-recipes/main-dishes/pasta/?internalSource=hub%20nav&referringId=1320&referringContentType=recipe%20hub&linkName=hub%20nav%20daughter&clickId=hub%20nav%202" target="_blank">
 <div class="image2">
     <div class="overlay">
-        <span class="image-text"><h6>RECIPES!</h6> <h6>CLICK TO READ MORE!</h6></span>
+        <span class="image-text"><h6>PASTA RECIPES</h6> <h6>CLICK TO READ MORE!</h6></span>
     </div>
 </div>
+                            </a>
                     </div>
                     <div class="col-lg-4">
+                        <a href="http://allrecipes.com/recipes/1346/healthy-recipes/salads/?internalSource=hub%20nav&referringId=84&referringContentType=recipe%20hub&linkName=hub%20nav%20daughter&clickId=hub%20nav%202" target="_blank">
 <div class="image3">
     <div class="overlay">
-        <span class="image-text"><h6>RECIPES!</h6> <h6>CLICK TO READ MORE!</h6></span>
+        <span class="image-text"><h6>SALAD RECIPES</h6> <h6>CLICK TO READ MORE!</h6></span>
     </div>
 </div>
+                            </a>
                     </div>
                 </div>
                 <div class="row">
@@ -175,7 +189,7 @@
         </div>
     </section>
     
-    <!-- Resources Section -->
+    <!-- Lifestyle Section -->
     <section id="lifestyle" class="lifestyle-section">
         <div class="container">
             <div class="row">
@@ -305,6 +319,8 @@
     <script src="js/jquery.easing.min.js"></script>
 <!-- Import for Homepage Smoothscroll Javascript -->
     <script src="js/scrolling-nav.js"></script>
+<!-- Import for Slide In Javascript -->
+    <script src="js/slide-in.js"></script>
         
 </body>
 <!--End of the Body-->

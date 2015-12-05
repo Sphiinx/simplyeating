@@ -59,59 +59,32 @@ html {
     background-position: center;
 }
 
-.eathealthy-section {
-    height: 75%;
-    padding-top: 75px;
+.eathealthy-section,.lifestyle-section,.contact-section {
     text-align: center;
     background: #eee;
 }
 
-.fitness-section {
-    height: 70%;
-    padding-top: 75px;
+.fitness-section,.about-section {
     text-align: center;
     background: #fff;
 }
 
-.lifestyle-section {
-    height: 75%;
-    padding-top: 75px;
-    text-align: center;
-    background: #eee;
-}
-
-.about-section {
-    height: 45%;
-    padding-top: 75px;
-    text-align: center;
-    background: #fff;
-}
-
-.contact-section {
-    height: 55%;
-    padding-top: 75px;
-    text-align: center;
-    background: #eee;
-}
 /*Eating Healthy Images*/
 .image1 {
     margin-top: 30px;
-
-    background: url(http://www.placehold.it/300x300);
+    background: url(http://i.imgur.com/xXECzgy.png);
     overflow: hidden;
 }
 
 .image2 {
     margin-top: 30px;
-
-    background: url(http://www.placehold.it/300x300);
+    background: url(http://i.imgur.com/NYC8ZHs.png);
     overflow: hidden;
 }
 
 .image3 {
     margin-top: 30px;
-
-    background: url(http://www.placehold.it/300x300);
+    background: url(http://i.imgur.com/KW7nxaR.png);
     overflow: hidden;
 }
 
