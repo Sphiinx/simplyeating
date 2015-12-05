@@ -27,6 +27,24 @@
     background-color: #09101C;
     }  
 }
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: all.6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+        background-color:rgba(0, 0, 0, 0.0);
+    }
+
+    .top-nav-collapse {
+        padding: 10px;
+        -webkit-transition: all.6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+        background-color:rgba(46, 56, 132, 0.8);
+    }
+}
 /*Navbar Responsive End*/
 
 /*Social Bar Responsive*/

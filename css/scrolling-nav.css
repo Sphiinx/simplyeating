@@ -8,55 +8,40 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: all.6s ease-in-out;
-        -moz-transition: all .6s ease-in-out;
-        transition: all .6s ease-in-out;
-        background-color:rgba(0, 0, 0, 0.0);
-    }
-
-    .top-nav-collapse {
-        padding: 10px;
-        -webkit-transition: all.6s ease-in-out;
-        -moz-transition: all .6s ease-in-out;
-        transition: all .6s ease-in-out;
-        background-color:rgba(46, 56, 132, 0.8);
-    }
-}
-
 .intro-section {
     height: 100%;
+    min-height: 920px;
     padding-top: 150px;
     text-align: center;
     background: #fff;
     background-image: url(http://i.imgur.com/6ukJf1v.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: 50% 8%;
+    background-attachment: fixed;
 }
 
 .intro-header {
     height: 60%;
+    min-height: 550px;
     padding-top: 150px;
     text-align: center;
     background: #fff;
     background-image: url(http://i.imgur.com/6ukJf1v.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: 50% 8%;
+    background-attachment: fixed;
 }
 
 .coming-soon {
     height: 79.2%;
+    min-height: 920px;
     padding-top: 150px;
     text-align: center;
     background: #fff;
     background-image: url(http://i.imgur.com/6ukJf1v.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: 50% 8%;
+    background-attachment: fixed;
 }
 
 .eathealthy-section,.lifestyle-section,.contact-section {

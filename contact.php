@@ -89,9 +89,10 @@
             <div class="row come-in">
                 <div class="col-lg-12">
                     <h1>CONTACT US!</h1>
-                    <a class="page-scroll text-effect" href="#main"><h5>SCROLL DOWN</h5>
+                    <div class="local-scroll">
+                    <a class="page-scroll scroll-down text-effect glyphicon-size-big" href="#main">
                     <span class="glyphicon-up-size glyphicon glyphicon-chevron-down" aria-hidden="true"></span></i></a>
-                </div>
+                    </div>
             </div>
         </div>
     </section>
@@ -99,7 +100,7 @@
 <section class="container" id="main">
     <div class="jumbotron">
         <div class="contact-container">
-            <h2 class="">Contact Page</h2>
+            <h2 class="">Contact Form</h2>
             <hr class="hr-style"/>
             <form class="contact-form" action="php/mail.php" method="POST">
                 <div class="smallContainer">

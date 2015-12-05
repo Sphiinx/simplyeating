@@ -245,14 +245,38 @@ nav {
 }
 /*Button Effects*/
 
+/*Come in effect*/
 .come-in {
   transform: translateY(25px);
   animation: come-in 1.2s ease forwards;
 }
 .come-in:nth-child(odd) {
-  animation-duration: 1s; /* So they look staggered */
+  animation-duration: 1s;
 }
 
 @keyframes come-in {
   to { transform: translateY(0); }
 }
+/*Come in effect end*/
+
+/*About page CSS*/
+
+.about-css {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.about-row {
+    margin-top: 5%;   
+}
+
+.hr-space {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.about-shrink {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+/*About page CSS End*/

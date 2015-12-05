@@ -1,4 +1,3 @@
-/*About Page CSS*/
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;  
@@ -39,29 +38,20 @@ h6 {
 }
 
 .main-logo {
-    margin-top: 100px;
-    margin-bottom: 250px;
     width: 50%;
     opacity: 0.7;
 }
 
-.about-css {
-    margin-top: 10%;
-    text-align: center;
+.local-scroll {
+    position: relative;
 }
 
-.about-row {
-    margin-top: 5%;   
+.index-scroll-down {
+    position: absolute;
+    bottom: -500px;
 }
 
-.hr-space {
-    margin-top: 75px;
-    margin-bottom: 75px;
+.scroll-down {
+    position: absolute;
+    bottom: -300px;
 }
-
-.about-shrink {
-    margin-right: 25%;
-    margin-left: 25%;
-}
-
-/*About page CSS End*/
