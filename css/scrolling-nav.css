@@ -47,22 +47,21 @@ html {
     background-size: cover;
     background-position: center;
 }
-
-.fitness-section {
-    height: 100%;
-    padding-top: 150px;
+.eathealthy-section {
+    height: 75%;
+    padding-top: 75px;
     text-align: center;
     background: #eee;
 }
 
-.lifestyle-section {
+.fitness-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.resources-section {
+.lifestyle-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -75,3 +74,56 @@ html {
     text-align: center;
     background: #fff;
 }
+
+.contact-section {
+    height: 55%;
+    padding-top: 75px;
+    text-align: center;
+    background: #eee;
+}
+/*Eating Healthy Images*/
+.image1 {
+    margin-top: 30px;
+
+    background: url(http://www.placehold.it/300x300);
+    overflow: hidden;
+}
+
+.image2 {
+    margin-top: 30px;
+
+    background: url(http://www.placehold.it/300x300);
+    overflow: hidden;
+}
+
+.image3 {
+    margin-top: 30px;
+
+    background: url(http://www.placehold.it/300x300);
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 45px 0 66px 0;
+    opacity: 0;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.image1:hover .overlay {
+    opacity: 1;
+}
+
+.image2:hover .overlay {
+    opacity: 1;
+}
+
+.image3:hover .overlay {
+    opacity: 1;
+}
+/*Eating Healthy Images End*/

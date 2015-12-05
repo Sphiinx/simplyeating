@@ -3993,7 +3993,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  margin-right: 30px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4332,6 +4332,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  font-size: 14pt;
+  margin-top: 7px;
+  letter-spacing: 1px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4528,6 +4531,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
   color: #ff5e00;
+  border-bottom: 3px solid #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
