@@ -26,6 +26,11 @@ p {
 .glyphicon-size-big {
     font-size: 20pt;
 }
+
+.glyphicon-size-large {
+    margin-top: 10px;
+    font-size: 30pt;
+}
 /*General Settings End*/
 
 /*Navbar Settings*/

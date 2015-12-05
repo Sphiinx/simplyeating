@@ -55,15 +55,15 @@ html {
 }
 
 .fitness-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 70%;
+    padding-top: 75px;
     text-align: center;
     background: #fff;
 }
 
 .lifestyle-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 75px;
     text-align: center;
     background: #eee;
 }
