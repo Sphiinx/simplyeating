@@ -158,7 +158,7 @@
             <div class="row">
                 <div class="col-sm-6 footer-logo">
                     <a class="page-scroll" href="index.html#intro">
-                    <img class="logo" src="images/logos/mainlogo.png" alt="TRiBot - RUNESCAPE® Bot" height="65" width="65">
+                    <img class="logo" src="images/logos/mainlogo.png" alt="SimplyEating" height="65" width="65">
                 </a>
                 </div>
                 <div class="col-sm-6">
@@ -172,7 +172,7 @@
                 <div class="clearfix"></div>
                 <hr class="hr-style">
                 <div class="col-sm-6 col-sm-offset-3 text-center footer-content">
-                    <p class="navbar-text">Copyright © 2016 SimplyEating | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="about.html">About</a> | <a href="contact.php">Contact</a></p>
+                    <p class="navbar-text">Copyright © 2016 SimplyEating | <a href="statistics.html">Statistics</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="about.html">About</a> | <a href="contact.php">Contact</a></p>
                 </div>  
                 <div class="col-sm-3">
                     <div class="pull-right">
