@@ -103,4 +103,10 @@ html {
 .image3:hover .overlay {
     opacity: 1;
 }
+
+.fluid-image {
+    margin: auto;
+    max-width: 550px;
+    
+}
 /*Eating Healthy Images End*/
