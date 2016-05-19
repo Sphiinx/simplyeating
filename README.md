@@ -6,5 +6,8 @@ A healthy eating PSA for the Business Professionals of America 2015-2016 Website
 ### Features
 * Lots of stuff
 
-### Version
-0.1
+### Versions
+**0.1 - 5/18/2016**
+```sh
+- Release Version
+```
