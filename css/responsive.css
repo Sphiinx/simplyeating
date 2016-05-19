@@ -47,6 +47,15 @@
 }
 /*Navbar Responsive End*/
 
+/*Down Button Glyphicon Responsive*/
+@media (max-width: 500px) {
+    .glyphicon-up-size {
+        position: relative;
+        top: -150px;
+    }
+}
+/*Down Button Glyphicon Responsive End*/
+
 /*Social Bar Responsive*/
 @media (max-width: 768px) {
     .social-sidebar {

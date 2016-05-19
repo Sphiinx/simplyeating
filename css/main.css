@@ -109,13 +109,13 @@ p {
 .google:hover,
 .twitter:hover,
 .pinterest:hover{
-    padding-left: 50px;
-    opacity: 1.0;
-    -webkit-transition: all .7s ease;
-    -moz-transition: all .7s ease;
-    -ms-transition: all .7s ease;
-    -o-transition: all .7s ease;
-    transition: all .7s ease;
+    padding-left: 15px;
+    opacity: 0.7;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 /*Social Sidebar End*/
 
@@ -225,6 +225,7 @@ nav {
 
 /*Button Effects*/
 .button_sliding {
+    border-style: none;
     color: #fff;
     background: #ff5e00;
     padding: 15px 20px;

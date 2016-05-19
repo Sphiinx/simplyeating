@@ -38,7 +38,7 @@ h6 {
 }
 
 .main-logo {
-    width: 50%;
+    width: 75%;
     opacity: 0.7;
 }
 
@@ -48,7 +48,7 @@ h6 {
 
 .index-scroll-down {
     position: absolute;
-    bottom: -500px;
+    bottom: -350px;
 }
 
 .scroll-down {

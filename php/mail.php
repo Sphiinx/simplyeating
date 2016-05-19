@@ -7,5 +7,5 @@ $subject = $_POST['subject'];
 $mailheader = "From: $email \r\n";
 
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You! <br/> <a href='../contact.php'>Go Back</a>";
+header( 'Location: http://simplyeating.co.nf/contactsuccess.html' );
 ?>

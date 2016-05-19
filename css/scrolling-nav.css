@@ -14,7 +14,7 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background-image: url(http://i.imgur.com/6ukJf1v.jpg);
+    background-image: url(http://i.imgur.com/Pdjfo1p.jpg);
     background-repeat: no-repeat;
     background-position: 50% 8%;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background-image: url(http://i.imgur.com/6ukJf1v.jpg);
+    background-image: url(http://i.imgur.com/Pdjfo1p.jpg);
     background-repeat: no-repeat;
     background-position: 50% 8%;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background-image: url(http://i.imgur.com/6ukJf1v.jpg);
+    background-image: url(http://i.imgur.com/Pdjfo1p.jpg);
     background-repeat: no-repeat;
     background-position: 50% 8%;
     background-attachment: fixed;
@@ -47,11 +47,15 @@ html {
 .eathealthy-section,.lifestyle-section,.contact-section {
     text-align: center;
     background: #eee;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .fitness-section,.about-section {
     text-align: center;
     background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 /*Eating Healthy Images*/
